@@ -1,0 +1,74 @@
+.note-editor-container {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #f3f3f3;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .sidebar h3 {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .sidebar li {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+  
+  .editor {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #fffbe6; /* notebook paper feel */
+  }
+  
+  .note-title {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .note-area {
+    width: 100%;
+    height: 300px;
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-image: linear-gradient(transparent 29px, #ccc 30px);
+    background-size: 100% 30px;
+    line-height: 30px;
+    resize: none;
+    outline: none;
+  }
+  
+  .add-button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  
